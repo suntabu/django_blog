@@ -9,9 +9,9 @@ from django.urls import resolve
 
 from accounts.forms import SignUpForm
 from accounts.views import signup
-from .views import home, board_topics, new_topic
-from .models import Board, Topic, Post
-from .forms import NewTopicForm
+from boards.views import home, board_topics, new_topic
+from boards.models import Board, Topic, Post
+from boards.forms import NewTopicForm
 
 
 # Create your tests here.
